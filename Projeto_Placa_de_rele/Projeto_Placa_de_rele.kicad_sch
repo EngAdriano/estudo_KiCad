@@ -1693,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 67.31) (xy 203.2 67.31)
+			(xy 199.39 77.47) (xy 212.09 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1793,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 62.23) (xy 203.2 62.23)
+			(xy 199.39 72.39) (xy 212.09 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1933,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 64.77) (xy 203.2 64.77)
+			(xy 199.39 74.93) (xy 212.09 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +1982,7 @@
 		(uuid "229674c7-3565-4140-8831-4aa4198e37dc")
 	)
 	(label "RL_NO"
-		(at 190.5 62.23 0)
+		(at 199.39 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2002,7 +2002,7 @@
 		(uuid "44e07984-39c2-446a-b839-c14a7d2cca83")
 	)
 	(label "RL_COM"
-		(at 190.5 64.77 0)
+		(at 199.39 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2032,7 +2032,7 @@
 		(uuid "bf343244-98ab-46c5-b8dd-21a75373825b")
 	)
 	(label "RL_NC"
-		(at 190.5 67.31 0)
+		(at 199.39 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2051,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f8208e0-c515-4390-a2ea-4da77c6b7dbc")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 119.38 105.4099 0)
 			(effects
 				(font
@@ -2105,7 +2105,7 @@
 		(instances
 			(project "Projeto_Placa_de_rele"
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2121,7 +2121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "143c7bbc-c55e-4358-bd5b-1692c7bb5945")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -2171,7 +2171,7 @@
 		(instances
 			(project "Projeto_Placa_de_rele"
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2187,7 +2187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2edd59ea-12c7-448d-9b87-2f5658657110")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 116.84 132.08 0)
 			(effects
 				(font
@@ -2237,7 +2237,7 @@
 		(instances
 			(project ""
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2245,7 +2245,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 208.28 64.77 0)
+		(at 217.17 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2253,8 +2253,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "340a549a-1e19-44f4-9a76-e4030c032a28")
-		(property "Reference" "J1"
-			(at 210.82 63.4999 0)
+		(property "Reference" "J2"
+			(at 219.71 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2263,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 210.82 66.0399 0)
+			(at 219.71 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,8 +2271,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 208.28 64.77 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 217.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 64.77 0)
+			(at 217.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 64.77 0)
+			(at 217.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2310,7 @@
 		(instances
 			(project ""
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2549,7 +2549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54bd87d8-90f0-4182-a6fc-bdee6ba3c255")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 120.65 118.4274 90)
 			(effects
 				(font
@@ -2612,7 +2612,7 @@
 		(instances
 			(project ""
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93bf7aea-fc33-4a5b-bb3c-ff08d3442479")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 104.14 132.08 0)
 			(effects
 				(font
@@ -2758,7 +2758,7 @@
 		(instances
 			(project ""
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2774,7 +2774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae867b9d-fecc-4249-ab46-b59e541ce917")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -2829,7 +2829,7 @@
 		(instances
 			(project ""
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2845,7 +2845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8c9de23-e9ac-4339-8b37-81b23a082185")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 142.24 76.1999 90)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 		(instances
 			(project ""
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2933,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da7bfd89-296e-4880-b007-4052c8a8413b")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 123.19 93.98 90)
 			(effects
 				(font
@@ -2985,7 +2985,7 @@
 		(instances
 			(project ""
 				(path "/3c7d3961-7c69-43c8-9b44-4ec8d2a3ba3a"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
