@@ -2090,7 +2090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22bcb553-c716-4c3f-844f-1e29b7651f49")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 140.97 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -2150,7 +2150,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR06")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2168,7 +2168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29caf221-b6c3-4df8-92bd-d14c706782aa")
-		(property "Reference" "TP2"
+		(property "Reference" "TP?"
 			(at 254 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,7 +2229,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "TP2")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -2247,7 +2247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d03b264-25b4-4787-af6a-ce5deccd1b16")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR?"
 			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2307,7 +2307,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR08")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "305c4b1c-7c9a-4768-9b15-d0c18b2e19f2")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 143.1133 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2444,7 +2444,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -2462,7 +2462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a263185-8f7c-492d-ae42-b11798c99604")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at 234.95 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -2522,7 +2522,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR014")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2540,7 +2540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44eebe27-b842-4171-9e50-4c906c77776c")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 260.35 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2613,7 +2613,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "J2")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e0f0b20-9b27-4fcd-a86c-5f09ef8ddf91")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 232.41 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2692,7 +2692,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "R2")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2710,7 +2710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5414d594-ec2d-4570-af00-99c5e70caa41")
-		(property "Reference" "C4"
+		(property "Reference" "C?"
 			(at 124.46 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2774,7 +2774,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "C4")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2792,7 +2792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "558de77b-fc7b-4c19-8a6e-d02ef37eec45")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 110.49 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2856,7 +2856,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "C3")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2873,7 +2873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56756603-ddc8-4c69-8eeb-cd72788692ef")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 222.758 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2935,7 +2935,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "R5")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2953,7 +2953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73493ef6-e286-4979-9985-6d6aaa414093")
-		(property "Reference" "TP1"
+		(property "Reference" "TP?"
 			(at 254 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3014,7 +3014,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "TP1")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -3032,7 +3032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8db41b4b-0973-44d4-9c1d-1bdccb17e029")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR?"
 			(at 234.95 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3092,7 +3092,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR013")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3110,7 +3110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9535b133-e54b-45f2-b85f-ed8d707b367d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR?"
 			(at 140.97 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3170,7 +3170,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR07")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3188,7 +3188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3513c0d-7f95-4e19-95d3-f922136261a8")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR?"
 			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3248,7 +3248,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR09")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3266,7 +3266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b18ceeaa-6981-4d1a-a363-9200f4f0613c")
-		(property "Reference" "TP3"
+		(property "Reference" "TP?"
 			(at 254 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3327,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "TP3")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -3344,7 +3344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c66afba3-cc0f-42c3-9e9d-f33536650493")
-		(property "Reference" "R4"
+		(property "Reference" "R?"
 			(at 232.41 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,7 +3406,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "R4")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3424,7 +3424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded27638-ba4a-4d33-8989-c2c8776cfb87")
-		(property "Reference" "TP5"
+		(property "Reference" "TP?"
 			(at 254 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3485,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "TP5")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -3503,7 +3503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e35f2c15-8733-4a46-9265-2bbfe9fb2cd1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 247.65 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3563,7 +3563,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR010")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3581,7 +3581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7d46ab1-f2d2-40fb-8957-63dbe080af65")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR?"
 			(at 247.65 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3641,7 +3641,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR011")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3659,7 +3659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8749a23-81f9-4b08-9d92-d91c192d0219")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR?"
 			(at 224.79 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3719,7 +3719,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "#PWR012")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3737,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc24b63-7440-4009-9e02-bfe980377068")
-		(property "Reference" "TP4"
+		(property "Reference" "TP?"
 			(at 254 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3798,7 +3798,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "TP4")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -3815,7 +3815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f66f35f7-2caa-4b08-a617-199978825813")
-		(property "Reference" "R3"
+		(property "Reference" "R?"
 			(at 232.41 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3877,7 +3877,7 @@
 		(instances
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4de3da96-660b-413c-99c9-762894d4c1b3"
-					(reference "R3")
+					(reference "R?")
 					(unit 1)
 				)
 			)
