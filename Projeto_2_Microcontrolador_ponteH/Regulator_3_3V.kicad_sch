@@ -160,6 +160,181 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Project2_Symbols:TLV70433DBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 18.288 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV70433DBVR"
+				(at 10.414 -19.304 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 10.668 -24.892 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TLV704 24-V Input Voltage, 150-mA, Ultralow IQ Low-Dropout Regulators 3.3V"
+				(at 9.398 -22.098 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Regulator LDO Linear"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV70433DBVR_1_1"
+				(rectangle
+					(start 0 0)
+					(end 20.32 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -3.81 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -276,15 +451,29 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Create TLV704 Symbol"
-		(exclude_from_sim no)
-		(at 128.524 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "907d4817-19a8-4847-a153-5085e1045191")
+	(junction
+		(at 154.94 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3edaabb0-ddc5-49e1-9de7-440488c48c5f")
+	)
+	(junction
+		(at 115.57 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9db10be1-9e89-40b2-b2e6-05b53d22ccf0")
+	)
+	(junction
+		(at 104.14 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba3fd0ff-ae07-4775-8777-89e060260a10")
+	)
+	(junction
+		(at 115.57 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f06b4a78-c4a2-427b-a010-a299a954f130")
 	)
 	(wire
 		(pts
@@ -328,6 +517,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 72.39) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d34f734-3046-46f3-a275-2018579eeb0c")
+	)
+	(wire
+		(pts
+			(xy 115.57 83.82) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669c4a4e-f7d5-484f-9bdf-ea2f63bbdda5")
+	)
+	(wire
+		(pts
 			(xy 104.14 72.39) (xy 104.14 80.01)
 		)
 		(stroke
@@ -338,6 +547,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 72.39) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7ee497-255e-4aad-9ead-19b2ce75fbe3")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 115.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba739b18-af10-4cd2-a6e3-b8cd297a49d3")
+	)
+	(wire
+		(pts
 			(xy 154.94 78.74) (xy 154.94 72.39)
 		)
 		(stroke
@@ -345,6 +574,46 @@
 			(type default)
 		)
 		(uuid "bea77c73-bbd6-4582-8fe0-116a97a8ade2")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 118.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60a9f8a-b986-4625-a1ce-f2bfe7a0c678")
+	)
+	(wire
+		(pts
+			(xy 115.57 83.82) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b24c7b-7b11-477d-899c-1035d5f397a8")
+	)
+	(wire
+		(pts
+			(xy 115.57 78.74) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c796b3-4824-453b-a115-d28bd956eb0b")
+	)
+	(wire
+		(pts
+			(xy 118.11 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4824d62-7b94-4698-be69-72c439a56964")
 	)
 	(hierarchical_label "3V3_OUT"
 		(shape output)
@@ -447,6 +716,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Project2_Symbols:TLV70433DBVR")
+		(at 120.65 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a62cc0b-36a4-47f6-9be3-d757b711750b")
+		(property "Reference" "U2"
+			(at 130.81 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV70433DBVR"
+			(at 130.81 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 131.318 93.472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TLV704 24-V Input Voltage, 150-mA, Ultralow IQ Low-Dropout Regulators 3.3V"
+			(at 130.048 90.678 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12298aa9-1e60-4133-a415-dedd13097411")
+		)
+		(pin "3"
+			(uuid "c1a1adc7-501a-4e18-b17a-1917bc976c55")
+		)
+		(pin "4"
+			(uuid "5cb2c968-488e-47d6-b78e-b3da4103eb13")
+		)
+		(pin "1"
+			(uuid "9b35fa35-77a9-4bc6-9c2c-201e8e4b8030")
+		)
+		(pin "5"
+			(uuid "cc65ab2a-0d06-40c2-9607-31984d8448d6")
+		)
+		(instances
+			(project "Projeto_2_Microcontrolador_ponteH"
+				(path "/93a75674-771f-42db-996f-b6f244100914/4411e000-ae8c-47f9-a8af-5ab99a6a34d5"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 96.52 0)
 		(unit 1)
@@ -519,6 +877,84 @@
 			(project "Projeto_2_Microcontrolador_ponteH"
 				(path "/93a75674-771f-42db-996f-b6f244100914/4411e000-ae8c-47f9-a8af-5ab99a6a34d5"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f0fc8cb-b723-4b40-8804-8c76a5fc7a13")
+		(property "Reference" "#PWR010"
+			(at 115.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b82047bd-f1ac-4d8c-97d2-2b530e671924")
+		)
+		(instances
+			(project "Projeto_2_Microcontrolador_ponteH"
+				(path "/93a75674-771f-42db-996f-b6f244100914/4411e000-ae8c-47f9-a8af-5ab99a6a34d5"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
